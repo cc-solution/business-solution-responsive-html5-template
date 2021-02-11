@@ -1,0 +1,40 @@
+	$(document).ready(function(){
+    $(".menu-toggle").click(function(){
+      $(".menu-header").fadeToggle();
+    });
+  });
+
+$(document).ready(function(){ 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+	nav:false,
+	dots:true,
+	autoplay:true,
+	autoplayTimeout:3000,
+	loop:true,
+	rewind:true,
+	autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+			loop:true,
+			dots:true
+        },
+        600:{
+            items:1,
+            nav:false,
+			loop:true,
+			dots:true
+        },
+        1000:{
+            items:1,
+            nav:false,
+            loop:true,
+			dots:true
+        }
+    }
+})
+});

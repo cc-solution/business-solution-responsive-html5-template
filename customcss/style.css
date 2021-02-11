@@ -1,0 +1,1358 @@
+/* *****************************************HOME PAGE *************************************** */
+/* ********************
+01 Header
+********************* */
+.logo-header {
+    padding: 40px 0;
+}
+
+.logo-header ul {
+    margin: 0px;
+    padding: 2px 0 0 0;
+    text-align: right;
+    list-style-type: none;
+}
+
+.logo-header ul li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0 10px;
+}
+
+.logo-header ul li:first-child {
+    border-right: 1px solid #353535;
+    padding-right: 10px;
+}
+
+.logo-header ul li:last-child {
+    padding-left: 5px;
+}
+
+.logo-header ul li a {
+    font-size: 14px;
+    color: #353535;
+    font-family: open sans;
+}
+
+.logo-header ul li a:hover,
+.logo-header ul li a:active,
+.logo-header ul li a:visited {
+    font-size: 14px;
+    color: #1b86e8;
+    text-decoration: none;
+}
+
+.email_contact span { margin-right:10px; }
+
+.menu-header {
+    background-color: #1b86e8;
+}
+
+.menu_list {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.menu_list li {
+    display: inline-block;
+}
+
+.menu_list li:first-child {
+    padding-left: 0px;
+}
+
+.menu_list li a {
+    color: white;
+    display: inline-block;
+    font-family: open sans;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 27px 25px;
+    transition: 0.2s;
+}
+
+.menu_list li a:hover {
+    background-color: white;
+    text-decoration: none;
+    color: #1b86e8;
+}
+
+/* ********************
+02 Featured Area
+********************* */
+.featured-area {
+    background-image: url("../images/banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.featured-area-content {
+    width: 890px;
+    max-width: 100%;
+    padding-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.featured-area-content h2 {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.featured-head {
+}
+
+.featured-head h1 {
+    font-family: montserrat;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 2px 15px black;
+}
+
+.featured-head p {
+    font-family: open sans;
+    font-size: 14px;
+    color: white;
+    margin-top: 35px;
+    text-shadow: 0px 2px 15px black;
+}
+
+.featured-btn {
+    margin-top: 50px;
+}
+
+.featured-btn a:link {
+    font-family: open sans;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: #1b86e8;
+    border: none;
+}
+
+.featured-btn a:visited, .featured-btn a:hover, .featured-btn a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+/* ********************
+03 Service Check
+********************* */
+.service-check {
+    padding: 30px 0;
+}
+
+.service-check h3 {
+    font-size: 24px;
+    font-family: montserrat;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    font-weight: bold;
+	margin: 20px 0;
+}
+
+.service-check a:link {
+    padding: 18px 22px;
+    color: white;
+    text-align: right;
+    display: inline-block;
+    float: right;
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: bold;
+    background: #1b86e8;
+    border: none;
+	 
+}
+
+.service-check a:visited, .service-check a:hover, .service-check a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+.services-row-3 a:link {
+	padding: 18px 22px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    font-family: open sans;
+    font-size: 16px;
+    font-weight: bold;
+    background: #1b86e8;
+    border: none;
+	
+}
+
+.services-row-3 a:visited, .services-row-3 a:hover, .services-row-3 a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+/* ********************
+04 About Section
+********************* */
+.about-sec {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+}
+
+.about-sec h3 {
+    font-family: montserrat;
+    font-size: 24px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-transform: Uppercase;
+}
+
+.about-sec p {
+    font-family: open sans;
+    font-size: 14px;
+    color: #353535;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.about-sec a:link {
+    margin-top: 30px;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: none;
+}
+
+.about-sec a:visited, .about-sec a:hover, .about-sec a:active {
+    background-color: #1567b3!important;
+	border:none;
+}
+
+/* ********************
+05 Why Choose
+********************* */
+.why-choose {
+    margin: 130px 0;
+}
+
+.why-choose-row1 {
+}
+
+.why-choose-content {
+    width: 560px;
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.why-choose-content h2 {
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+
+.why-choose-content p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #353535;
+    margin-top: 35px;
+    line-height: 1.8;
+}
+
+.why-choose-row2 {
+    margin-top: 70px;
+}
+
+.why-choose-row2 h4 {
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: bold;
+    color: #222222;
+    line-height: 1.5;
+}
+
+.why-choose-row2 h4 span {
+    color: #1b86e8;
+}
+
+.why-choose-row2 p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #353535;
+    line-height: 1.8;
+    margin: 34px 0;
+}
+
+.why-choose-row2 a:link {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8;
+    padding: 16px 40px;
+    border: none;
+}
+
+.why-choose-row2 a:visited, .why-choose-row2 a:hover, .why-choose-row2 a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+/* ********************
+06 experience
+********************* */
+.experience-sec {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+    margin-bottom: 130px;
+}
+
+.experience-sec h1 {
+    font-family: montserrat;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+}
+
+.experience-sec p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: #222222;
+}
+
+/* ********************
+06 Services
+********************* */
+.services {
+}
+
+.services-head {
+    width: 560px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.services-head h4 {
+    font-family: montserrat;
+    font-size: 24px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.services-head span {
+    color: #1b86e8;
+}
+
+.services-head p {
+    font-family: open sans;
+    font-size: 14px;
+    color: #1c1c1c;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 80px;
+    line-height: 1.8;
+}
+
+.services-row-2 {
+    margin-top: 40px;
+}
+
+.services-col {
+    text-align: center;
+}
+
+.services-col h4 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: montserrat;
+    color: #1c1c1c;
+    margin: 30px 0;
+}
+
+.services-col p {
+    font-weight: lighter;
+    font-size: 14px;
+    font-family: open sans;
+    color: #353535	;
+    line-height: 1.8;
+    margin: 30px 0;
+}
+
+.services-col a:link {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8!important;
+    padding: 16px 40px;
+    border: none;
+}
+
+.services-col a:visited, .services-col a:hover, .services-col a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+.services-row-3 {
+    margin-top: 80px;
+}
+
+.services-row-3 a {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8;
+    padding: 16px 0;
+    border: none;
+}
+
+.services-row-3 a:hover {
+    background-color: #1567b3;
+}
+
+/* ********************
+07 Video Present
+********************* */
+.video-present {
+    margin-top: 135px;
+}
+
+.video-present .video-image {
+    background-image: url('../images/videopresent1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 515px;
+}
+
+.video-content {
+    width: 890px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 220px 0 0 0;
+}
+
+.video-content h2 {
+    font-family: montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.video-content p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    line-height: 1.8;
+    margin-top: 45px;
+}
+
+/* ********************
+08 Team members
+********************* */
+.team-member {
+    margin-top: 135px;
+}
+
+.team-member-head {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-member-head h4 {
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+
+.team-member-head span {
+    color: #1b86e8;
+}
+
+.team-member-head p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #353535;
+    line-height: 1.8;
+    padding: 38px 0 80px 0;
+}
+
+.team-member-row2 {
+}
+
+.team-member-row2 .col-content {
+}
+
+.col-footer {
+    padding: 15px 0;
+    background-color: #e9effb;
+    margin-top: 20px;
+}
+
+.col-footer h6 {
+    font-size: 18px;
+    font-family: montserrat;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0 5px 0;
+    width: 100%;
+}
+
+.col-footer p {
+    font-size: 14px;
+    font-family: open sans;
+    color: #1c1c1c;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0px;
+}
+
+/* ********************
+09 Blog and News
+********************* */
+.blogs {
+    margin: 135px 0 ;
+}
+
+.blog-head {
+    width: 540px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-head span {
+    color: #1b86e8;
+}
+
+.blog-head h4 {
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1c1c1c;
+    text-transform: uppercase;
+}
+
+.blog-head p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #353535;
+    line-height: 1.8;
+    padding: 38px 0 80px 0;
+}
+
+.blog-row2 {
+}
+
+.blog-row2 .blog-col {
+}
+
+.blog-col-footer {
+    border-bottom: 1px dashed black;
+    padding: 35px 0;
+    height: 150px;
+}
+
+.blog-col-footer p {
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: open sans;
+    color: #1c1c1c;
+}
+
+.blog-col-footer h6 a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: montserrat;
+    color: #1c1c1c;
+}
+
+/* ********************
+10 Footer
+********************* */
+.footer {
+    background-color: #1b86e8;
+    padding: 80px 0;
+}
+
+.footer-row1 {
+}
+
+.footer-row1 h6 {
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-links {
+    margin: 30px 0 0 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links li a {
+    color: #e4e4e4;
+    display: block;
+    font-family: open sans;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.footer-links input[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: open sans;
+    color: white;
+    background-color: #005099;
+    border: none;
+}
+
+.footer-links input[type="submit"]:hover {
+    background-color: #166ebf;
+}
+
+.copyright {
+    padding: 25px 0;
+    background-color: #0f497f;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: white;
+    font-family: open sans;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: 100%;
+}
+
+.menu-toggle {
+    width: 100%;
+    background-color: grey;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: none;
+    color:white;
+}
+
+.menu-toggle:hover, .menu-toggle:active, .menu-toggle:visited {background-color: #166ebf; border:none; color:white;}
+
+/* ********************
+MEDIA QUERY HOME PAGE
+********************* */
+@media all and (max-width: 768px)
+{
+    .menu-toggle {
+        display: inline-block;
+        background-color:grey;
+        border:none;
+        color:white;
+    }
+    .menu-toggle:hover, .menu-toggle:active, .menu-toggle:visited {background-color: #166ebf; border:none; color:white}
+
+    .menu-header {
+        display: none;
+    }
+
+    .logo-header ul {
+        display: none;
+    }
+
+    .logo-header img {
+        text-align: center;
+        display: block;
+        width: 80%;
+    }
+
+    .menu_list li {
+        display: block;
+    }
+
+    .menu_list li a {
+        display: block;
+        padding: 12px 25px;
+        text-align: center;
+    }
+
+    .featured-head h1 {
+        font-size: 45px;
+    }
+
+    .service-check a {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    .service-check h3 {
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .about-sec h3,
+    .about-sec p {
+        text-align: center;
+    }
+
+    .about-sec a {
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .why-choose-row2 h4,
+    .why-choose-row2 p {
+        text-align: center;
+    }
+
+    .why-choose-row2 a {
+        display: block;
+    }
+
+    .why-choose {
+        margin: 50px 0;
+    }
+
+    .experience-sec {
+        margin-bottom: 50px;
+    }
+
+    .experience-sec p {
+        margin-bottom: 30px;
+    }
+
+    .services-row-3 {
+        margin-top: 30px;
+    }
+
+    .services-col a {
+        margin-bottom: 30px;
+    }
+
+    .video-present {
+        margin-top: 50px;
+    }
+
+    .video-content {
+        padding-top: 100px;
+    }
+
+    .col-content {
+        text-align: center;
+    }
+
+    .col-footer {
+        margin-bottom: 30px;
+    }
+
+    .blogs {
+        margin: 50px;
+    }
+
+    .blog-col-footer {
+        margin-bottom: 30px;
+        height: 170px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-row1 h6{
+        margin-top: 30px;
+    }
+
+    .footer-links {
+        padding-bottom:20px;
+        border-bottom:1px dashed rgb(255, 255, 255);
+    }
+}
+
+@media all and (max-width: 340px)
+{
+}    
+
+
+
+/*********************************************** ABOUT PAGE ************************************************/
+
+
+.aboutp-featured-area {
+    background-image: url("../images/aboutp-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 355px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/*************************************************
+02 About Section
+**************************************************/
+
+.aboutp-about-sec {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+	margin:50px 0 100px 0;
+}
+
+.aboutp-about-sec h3 {
+    font-family: montserrat;
+    font-size: 24px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-transform: Uppercase;
+}
+
+.aboutp-about-sec h6 {
+    font-family: montserrat;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: bold;
+    margin-top:27px;	
+}
+
+.aboutp-about-sec p {
+    font-family: open sans;
+    font-size: 14px;
+    color: #353535;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.aboutp-about-sec a:link {
+    margin-top: 30px;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: none;
+}
+
+.aboutp-about-sec a:visited, .aboutp-about-sec a:hover, .aboutp-about-sec a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+
+/*************************************************
+03 Who we are
+**************************************************/
+
+.aboutp-who-we-sec {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+}
+
+.aboutp-who-we-sec h3 {
+    font-family: montserrat;
+    font-size: 24px;
+    color: #1c1c1c;
+    font-weight: bold;
+    text-transform: Uppercase;
+}
+
+.aboutp-who-we-sec h6 {
+    font-family: montserrat;
+    font-size: 18px;
+    color: #1c1c1c;
+    font-weight: bold;
+    margin-top:27px;	
+}
+
+.aboutp-who-we-sec p {
+    font-family: open sans;
+    font-size: 14px;
+    color: #353535;
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+.aboutp-who-we-sec a:link {
+    margin-top: 30px;
+    font-family: open sans;
+    color: white;
+    background-color: #1b86e8;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 40px;
+    border: none;
+}
+
+.aboutp-who-we-sec a:visited, .aboutp-who-we-sec a:hover, .aboutp-who-we-sec a:active {
+    background-color: #1567b3 !important;
+	border:none;
+}
+
+/*************************************************
+Experience
+**************************************************/
+
+.aboutp-experience-sec {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+    margin: 130px 0;
+}
+
+.aboutp-experience-sec h1 {
+    font-family: montserrat;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+    color: #222222;
+}
+
+.aboutp-experience-sec p {
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: #222222;
+}
+
+/*********************************************
+Whats Client say
+*********************************************/
+.aboutp-clientsay {
+	height: 350px;
+	margin: 80px 0 80px 0;
+	background-image: url("../images/aboutp-clientsay1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aboutp-clientsay-content{
+	width: 810px;
+	max-width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 0 0 0;
+}
+
+.aboutp-clientsay-head h3{
+	font-family:montserrat;
+	font-size:24px;
+	color:#1c1c1c;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	text-align:center;
+	margin-top:80px;
+}
+
+.aboutp-clientsay-head span{
+	color:#166ebf;
+}
+
+
+.aboutp-clientsay-content p{
+	font-family:open sans;
+	font-size:14px;
+	color:#1c1c1c;
+	margin-bottom:30px;
+	font-weight:lighter;
+	line-height:1.8;
+}
+
+.aboutp-clientsay-content h6{
+	font-family:open sans;
+	font-size:18px;
+	color:#353535;
+	font-weight:bold;
+}
+
+.owl-dots {
+	text-align:center;
+}
+.owl-dots button {
+	display:inline-block; 
+	border:5px solid #166ebf !important; 
+	border-radius:50%;
+	margin-right:5px;
+}
+
+.owl-dots button.active {
+	border:5px solid #002547 !important; 
+}
+
+@media all and (max-width: 768px){
+	
+	.aboutp-about-sec {
+		text-align:center; 
+		margin:50px 0;
+	}
+	
+	.aboutp-about-sec a{
+		margin:50px 0;
+	}
+	
+	.aboutp-who-we-sec {
+		text-align:center;
+	}
+	
+	.aboutp-who-we-sec h3 {
+		margin-top:50px;
+	}
+	
+	.aboutp-clientsay {
+		margin:50px 0 50px 0;
+	}
+	
+	.aboutp-clientsay-content {
+		max-width:95%; 
+	}
+	
+}
+
+/***************************Services page starts **********************************************/
+
+.servicesp-services {
+	margin-top:100px;
+}
+
+@media all and (max-width:768px){
+	.aboutp-experience-sec {margin:50px 0;}
+}
+
+/********************************Blogs page start*****************************************/
+
+.blogsp-blog-row {margin:30px 0;}
+
+/**************************Contact page ****************************************/
+.contactp-contact {
+	margin: 100px 0;
+}
+
+.contact-head {}
+.contact-head h3{
+	font-family: montserrat;
+	font-size:24px;
+	color:#1c1c1c;
+	font-weight:bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.contact-head p{
+	font-family: open sans;
+	font-size:14px;
+	color:#353535;
+	font-weight:lighter;
+	text-align: center;
+	line-height:1.8;
+	margin:35px 0 80px 0;
+}
+
+.form-row a:link {
+	background-color:#1b86e8 !important;
+	border:none !important;
+}
+
+.form-row a:visited, .form-row a:hover, .form-row a:active   {
+	background-color:#1567b3 !important;
+	border:none !important;
+	
+}
+
+.global-presence{
+	margin-bottom: 50px;
+}
+
+.global-content{
+	width:600px;
+	max-width:100%;
+	margin:0 auto;
+}
+
+.global-content h3{
+	font-family:montserrat;
+	font-size:24px;
+	font-weight:bold;
+	text-transform: uppercase;
+	color:#1c1c1c;
+	text-align: center;
+}
+
+.global-content span{
+	color:#166ebf;
+}
+ 
+.global-content p{
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#353535;
+	text-align: center;
+	line-height:1.8;
+	margin-top:32px;
+}
+
+.global-row {
+	margin: 80px 0;
+}
+
+.global-col-foot {
+	padding:14px 30px;
+	text-align:center;
+	background-color: #e9effb;
+	margin:20px 0 0 0;
+}
+
+.global-col-foot h6{
+	font-family:montserrat;
+	font-size:14px;
+	font-weight:bold;
+	color:#1c1c1c;
+	text-align: left;
+}
+
+.global-col-foot p{
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#353535;
+	text-align: left;
+	line-height:1.8;
+	margin :0px;
+}
+
+/***********************************************************************
+Blog details
+**********************************************************************/
+.blog-detail {
+	margin:15px 0 0 0;
+}
+
+.blog-detail-head{
+	margin:50px 0 0 0;
+}
+
+.blog-detail-head h3{
+	font-family:montserrat;
+	font-size:24px;
+	font-weight:bold;
+	color:#1c1c1c;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.blog-detail-head p{
+	font-family:open sans;
+	font-size:12px;
+	font-weight:bold;
+	color:#353535;
+	text-align: left;
+}
+
+.blog-detail-content  {
+	margin: 50px 0;
+}
+
+.blog-detail-content p:first-child {
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#1c1c1c;
+	text-align: left;
+	line-height: 1.8;
+	margin-bottom : 50px;
+}
+
+.blog-detail-content p:last-child {
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#1c1c1c;
+	text-align: left;
+	line-height: 1.8;
+	margin-top : 50px;
+}
+
+/*********************************************************************
+404 page
+**********************************************************************/
+
+.fourzero
+{
+	margin: 50px 0;
+}
+
+.fourzero-head h1{
+	font-family:montserrat;
+	font-size:65px;
+	font-weight:bold;
+	color:#1b86e8;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.fourzero-head h3{
+	font-family:montserrat;
+	font-size:38px;
+	font-weight:bold;
+	color:#353535;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.fourzero-head p{
+	font-family:montserrat;
+	font-size:16px;
+	font-weight:regular;
+	color:#1c1c1c;
+	text-align: center;
+}
+
+/***********************************************************************
+FAQ
+***********************************************************************/
+.faq {
+	margin:50px 0;
+}
+
+.card-mar {
+	margin:10px 0;
+}
+
+/**********************************************************************
+Pricing
+**********************************************************************/
+
+.pricing-head {
+	margin:50px 0;
+	
+}
+
+.pricing-head h3{
+	font-family:montserrat;
+	font-size:24px;
+	font-weight:bold;
+	color:#353535;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pricing-head p{
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#1c1c1c;
+	text-align: center;
+	margin:50px 0 0 0;
+	line-height:1.8;
+}
+
+.pricing {
+	margin:50px 0;
+}
+
+.price-col {
+	background-color :#f6f6f6;
+	padding:10px;
+	text-align:center;
+}
+.price-col:hover {
+	background-color: #e9effb;
+	box-shadow: 1px 0px 5px grey;
+}
+
+.price-col h3{
+	font-family:montserrat;
+	font-size:20px;
+	font-weight:regular;
+	color:#353535;
+	text-align: center;
+}
+
+.price-col h1{
+	font-family:montserrat;
+	font-size:38px;
+	font-weight:bold;
+	color:#1b86e8;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.price-col p{
+	font-family:open sans;
+	font-size:14px;
+	font-weight:lighter;
+	color:#1c1c1c;
+	text-align: center;
+}
+
+.price-list  {
+	margin:0px; padding:0px;
+	list-style-type: none;
+	 
+}
+
+.price-list li {
+	display:block;
+	margin: 10px 0;
+	padding: 10px 0;
+	font-family:open sans;
+	font-size:12px;
+	font-weight:lighter;
+	color:#1c1c1c;
+	border-bottom: 1px dashed grey;
+}
+
+.price-col a:link {
+	background-color:#1b86e8 !important;
+	border:none !important;
+	font-family:open sans;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.price-col a:visited, .price-col a:hover, .price-col a:active {
+	background-color: #1567b3 !important;
+	border:none !important; 
+}

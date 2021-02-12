@@ -1356,3 +1356,196 @@ Pricing
 	background-color: #1567b3 !important;
 	border:none !important; 
 }
+
+/*****************************************************************************************
+Media another
+*****************************************************************************************/
+@media all and (max-width: 768px){
+    .featured-btn a:link {
+        font-family: open sans;
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        padding: 20px 40px;
+        display: inline-block;
+        background-color: #1b86e8;
+        border: none;
+    }
+    
+    .featured-btn a:visited, .featured-btn a:hover, .featured-btn a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+
+    .service-check a:link {
+        padding: 18px 22px;
+        color: white;
+        text-align: right;
+        display: inline-block;
+        float: none;
+        font-family: open sans;
+        font-size: 16px;
+        text-align:center;
+        display: block;
+        font-weight: bold;
+        background: #1b86e8;
+        border: none;
+         
+    }
+    
+    .service-check a:visited, .service-check a:hover, .service-check a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+        
+    }
+    
+    .services-row-3 a:link {
+        padding: 18px 22px;
+        color: white;
+        text-align: center;
+        display: inline-block;
+        /*float: right;*/
+        text-align:center;
+       
+        font-family: open sans;
+        font-size: 16px;
+        font-weight: bold;
+        background: #1b86e8;
+        border: none;
+        
+    }
+    
+    .services-row-3 a:visited, .services-row-3 a:hover, .services-row-3 a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+    
+    .about-sec a:link {
+        margin-top: 30px;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px 40px;
+        border: none;
+    }
+    
+    .about-sec a:visited, .about-sec a:hover, .about-sec a:active {
+        background-color: #1567b3!important;
+        border:none;
+        color:white;
+    }
+    
+    .why-choose-row2 a:link {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8;
+        padding: 16px 40px;
+        border: none;
+    }
+    
+    .why-choose-row2 a:visited, .why-choose-row2 a:hover, .why-choose-row2 a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+    
+    
+    .services-col a:link {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8!important;
+        padding: 16px 40px;
+        border: none;
+    }
+    
+    .services-col a:visited, .services-col a:hover, .services-col a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+    
+    .services-row-3 a {
+        font-size: 16px;
+        font-weight: bold;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8;
+        padding: 16px 0;
+        border: none;
+    }
+    
+    .services-row-3 a:hover {
+        background-color: #1567b3;
+        color:white;
+        border: none;
+    }
+    
+    .aboutp-about-sec a:link {
+        margin-top: 30px;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px 40px;
+        border: none;
+    }
+    
+    .aboutp-about-sec a:visited, .aboutp-about-sec a:hover, .aboutp-about-sec a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+    
+    .aboutp-who-we-sec a:link {
+        margin-top: 30px;
+        font-family: open sans;
+        color: white;
+        background-color: #1b86e8;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 15px 40px;
+        border: none;
+    }
+    
+    .aboutp-who-we-sec a:visited, .aboutp-who-we-sec a:hover, .aboutp-who-we-sec a:active {
+        background-color: #1567b3 !important;
+        border:none;
+        color:white;
+    }
+    
+    .form-row a:link {
+        background-color:#1b86e8 !important;
+        border:none !important;
+    }
+    
+    .form-row a:visited, .form-row a:hover, .form-row a:active   {
+        background-color:#1567b3 !important;
+        border:none !important;
+        color:white;
+        
+    }
+    
+    .price-col a:link {
+        background-color:#1b86e8 !important;
+        border:none !important;
+        font-family:open sans;
+        font-size:14px;
+        font-weight:bold;
+    }
+    
+    .price-col a:visited, .price-col a:hover, .price-col a:active {
+        background-color: #1567b3 !important;
+        border:none !important; 
+         
+    }
+}

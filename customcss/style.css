@@ -227,7 +227,7 @@
 .about-sec a:link {
     margin-top: 30px;
     font-family: open sans;
-    color: white;
+    color: white !important;
     background-color: #1b86e8;
     font-weight: bold;
     font-size: 16px;
@@ -238,6 +238,7 @@
 .about-sec a:visited, .about-sec a:hover, .about-sec a:active {
     background-color: #1567b3!important;
 	border:none;
+    color:white  !important;
 }
 
 /* ********************
